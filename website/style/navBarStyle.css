@@ -28,11 +28,11 @@ li a:hover {
 }
 
 .active {
-  color: #e0de1a;
+  color: #dbd218;
 }
 
 .item-text:hover {
-  color: #e0de1a;
+  color: #dbd218;
 }
 
 /* Create two equal columns that floats next to each other */
