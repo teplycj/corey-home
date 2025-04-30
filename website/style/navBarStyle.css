@@ -1,0 +1,144 @@
+ul {
+ list-style-type: none;
+ overflow: hidden;
+ background-color: #333;
+ padding: 0;
+ border: 1px solid #ddd;
+}
+
+ul.powerChunk {
+ list-style-type: none;
+ overflow: hidden;
+ background-color: #000;
+ padding: 0;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ font-size: 20;
+ font-weight: bold;
+}
+
+
+li a {
+ display: block;
+ color: white;
+ text-align: left;
+ padding: 10px 16px;
+ text-decoration: none;
+}
+
+li.inventoryList{
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+ background-color: #111;
+ cursor: pointer;
+}
+
+.active {
+  color: #e0de1a;
+}
+
+.item-text:hover {
+  color: #e0de1a;
+}
+
+/* Create two equal columns that floats next to each other */
+.picColumn {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.menuColumn {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+.bigColumn {
+  float: left;
+  width: 65%;
+  padding: 10px;
+}
+
+.editTableColumn {
+  float: left;
+  width: 80%;
+  padding: 10px;
+}
+
+.halfColumn {
+  float: left;
+  width: 48%;
+  padding: 10px;
+}
+
+.quarterColumn {
+  float: left;
+  width: 22%;
+  padding: 10px;
+}
+
+.tinyColumn {
+  float: left;
+  width: 5%;
+  padding: 10px;
+}
+
+.employeeCol{
+  float: left;
+  width: 45%;
+  padding: 10px;
+  border: 3px solid #e0e0e0;
+  background-color: #333;
+  border-radius:10px;
+  display: block;
+}
+
+.thirdColumn{
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.vis{
+  display: block;
+}
+.novis{
+  display: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1500px) {
+  .halfColumn, .tinyColumn, .editTableColumn, .bigColumn, .menuColumn, .column{
+    width: 100%;
+    margin-top: 0;
+    padding: 5px;
+  }
+  .quarterColumn{
+    width: 47%;
+    margin-top: 0;
+    padding: 5px;
+  }
+  .picColumn{
+    width: 30%;
+    float: right;
+  }
+}

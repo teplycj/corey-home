@@ -1,0 +1,239 @@
+html,body{background-color: black;color:white;font-family:Arial;font-size: 18px}
+.btn{
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  font-size:17px;
+  padding: 12px 28px;
+  border-radius: 1em 1em 1em 1em;
+  border-style: solid;
+}
+.loginBtn{
+  background-color: #e0de1a;
+  color: black;
+  border-color:black;
+  transition-duration: 0.4s;
+}
+.loginBtn:hover{
+  background-color: #e0de1a;
+  color: black;
+  opacity: 0.8;
+  border-color:black;
+  cursor: pointer;
+}
+.excelBtn{
+  background-color: #005703;
+  color: white;
+  border-color:black;
+  transition-duration: 0.4s;
+}
+.excelBtn:hover{
+  background-color: #005703;
+  color: white;
+  opacity: 0.8;
+  border-color:black;
+  cursor: pointer;
+}
+.goBack {
+  background-color:black;
+  color: white;
+  font-size:18px;
+  border: 1px;
+   border-color:black;
+   cursor:pointer;
+   text-align:center;
+   float: left;
+   display: inline;
+}
+.threeDotBtn{
+  background-color:transparent;
+  color: black;
+   border: none;
+   cursor:pointer;
+   text-align:center;
+   float: center;
+   display: inline;
+   outline: none;
+}
+.hamburgerBtn{
+  background-color:transparent;
+  color: white;
+  border: none;
+  cursor:pointer;
+  outline: none;
+}
+.plusBtn{
+  color: black;
+   border: none;
+   cursor:pointer;
+   outline: none;
+   border-radius: 100px;
+   transition-duration: 0.4s;
+}
+.plusBtn:hover{
+  color: black;
+   border: none;
+   cursor:pointer;
+   outline: none;
+   border-radius: 100px;
+   opacity: 0.8;
+}
+.addRowBtn{
+  margin:0 auto;
+  display:block;
+  background-color:white;
+}
+.addBeerBtn{
+  background-color:#00756f;
+  color: white;
+  cursor:pointer;
+  transition-duration: 0.4s;
+}
+.btnContainer{
+  height: 50px;
+  position: relative;
+}
+.verticalCenter{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+input[type=text], input[type=date],input[type=tel],select,textarea {
+  width: 100%;
+  font-family:Arial;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1em 1em 1em 1em;
+  resize: vertical;
+  background-color: white;
+}
+/* for getting rid of up/down arrows on numeric inputs*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* for getting rid of calendar icon in chrome */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin:0 auto;
+  display: inline;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1em 1em 1em 1em;
+}
+input.inputField{
+  -moz-appearance: textfield;
+  width: 40%;
+  font-size: 16px;
+  text-align:center;
+}
+#genralSearch{
+  width: 60%;
+  font-size: 17px;
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #fcb500; /* Add a orange border */
+  margin-left: 12px; /* Add some space below the input */
+  display: inline;
+  box-sizing: border-box;
+  float: left;
+  border-radius: 1em 1em 1em 1em;
+  background-image: url('../www/newSearchIcon.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 30px 20px;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.homeimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75%;
+  width: 75%;
+}
+.topic_name{
+  margin-right: 0px;
+  margin-top: 12px;
+  position: absolute;
+  text-align: right;
+  border: 1px solid red;
+}
+.image_topic{
+  margin-left: 0px;
+  border: 1px solid red;
+  float: right
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align:center;
+}
+.loginContainer{
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  vertical-align:center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 95%;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=date],select,#genralSearch {
+    width: 60%;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  input[type=text], textarea{
+    width: 90%;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  input[type=number]{
+    -moz-appearance: textfield;
+    width: 90%;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  input.inputField{
+    -moz-appearance: textfield;
+    width: 60%;
+    font-size: 16px;
+    text-align:center;
+  }
+}
