@@ -142,3 +142,44 @@ li a:hover {
     float: right;
   }
 }
+
+.header {
+  overflow: hidden;
+  /*background-color: #00632d;*/
+  padding: 20px 10px;
+  border-radius: 25px;
+}
+
+.header a {
+  float: left;
+  color: #202121;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header span.logo {
+  font-size: 40px;
+  font-weight: bold;
+  float: left;
+  padding: 12px;
+}
+
+.header a:hover {
+  background-color: #828282;
+  color: #fbfcf2;
+  border-radius: 5px;
+}
+
+.header a.active {
+  background-color: #2e2e2e;
+  color: #fbfcf2;
+  border-radius: 5px;
+}
+
+.header-right {
+  float: right;
+}
