@@ -45,7 +45,7 @@
         <div class="halfColumn">
           <h1>Corey Teply</h1>
           <h4>
-            Experienced researcher and data scientist skilled in problem solving and software engineering. I'm eager to learn, collaborate, and contribute to innovative teams pushing the boundaries in research, commerce, or other fields where my expertise can make an impact.
+            Experienced researcher and data scientist skilled in problem solving and software engineering. I'm eager to learn, collaborate, and contribute to innovative teams pushing the boundaries in health research, green energy, commerce, or other fields where my expertise can make an impact.
           </h4>
           <hr>
           <div class="row">

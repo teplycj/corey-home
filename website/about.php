@@ -47,11 +47,12 @@
           My name is Corey, and I live in Eugene, Oregon. I am currently employed at Univeristy of Washington's <a target="_blank" href="https://www.healthdata.org/" style="color:#202121">Institute for Health Metrics and Evaluation</a> as a data scientist and health researcher.
           I also am the owner of <a target="_blank" href="https://www.publicpoolconsulting.com/" style="color:#202121">Public Pool Consulting, LLC</a> - a consulting business that helps restaurants design equitable tip pool structures for their hourly staff, along with helping compile sales data to help restaurants track trends.<br>
           <br>
-          I enjoy hiking
+          I enjoy the outdoors, playing music, woodworking, and rock climbing. Check out my resume and reach out <a href="contact.php" style="color:#202121">here</a> if you have any questions. Cheers!
         </p>
       </div>
       <br>
-
+      <hr>
+      <h1>R&#233;sum&#233;</h1>
       <hr>
       <footer style="text-align:center;">
        <p>Corey Teply</p>
