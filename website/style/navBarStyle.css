@@ -1,43 +1,30 @@
 ul {
  list-style-type: none;
  overflow: hidden;
- background-color: #333;
+ background-color: #c5f4fc;
  padding: 0;
- border: 1px solid #ddd;
-}
-
-ul.powerChunk {
- list-style-type: none;
- overflow: hidden;
- background-color: #000;
- padding: 0;
- border: 1px solid #ddd;
- border-radius: 5px;
- font-size: 20;
- font-weight: bold;
+ border: 2px solid #171717;
+ width: 50%;
+ border-radius:10px;
 }
 
 
 li a {
  display: block;
- color: white;
+ color: #171717;
  text-align: left;
- padding: 10px 16px;
+ padding: 1px 15px;
  text-decoration: none;
+ font-size: 105%;
+ text-align: center;
 }
-
-li.inventoryList{
-  display: block;
-  color: white;
-  text-align: left;
-  padding: 5px 10px;
-  text-decoration: none;
-}
-/* Change the link color to #111 (black) on hover */
 
 li a:hover {
  background-color: #111;
  cursor: pointer;
+ color: #05d3f7;
+ font-size: 105%;
+ text-align: center;
 }
 
 .active {
@@ -126,7 +113,7 @@ li a:hover {
   clear: both;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   .halfColumn, .tinyColumn, .editTableColumn, .bigColumn, .menuColumn, .column{
     width: 100%;
     margin-top: 0;
@@ -138,48 +125,10 @@ li a:hover {
     padding: 5px;
   }
   .picColumn{
-    width: 30%;
-    float: right;
+    width: 50%;
+    float: left;
   }
-}
-
-.header {
-  overflow: hidden;
-  /*background-color: #00632d;*/
-  padding: 20px 10px;
-  border-radius: 25px;
-}
-
-.header a {
-  float: left;
-  color: #202121;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header span.logo {
-  font-size: 40px;
-  font-weight: bold;
-  float: left;
-  padding: 12px;
-}
-
-.header a:hover {
-  background-color: #828282;
-  color: #fbfcf2;
-  border-radius: 5px;
-}
-
-.header a.active {
-  background-color: #2e2e2e;
-  color: #fbfcf2;
-  border-radius: 5px;
-}
-
-.header-right {
-  float: right;
+  ul{
+    width: 85%;
+  }
 }
